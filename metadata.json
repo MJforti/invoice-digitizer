@@ -1,0 +1,6 @@
+{
+  "name": "Invoice Digitizer",
+  "description": "Invoice pdf to excel entries, this tool does it all. Ai sabki job khayega",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

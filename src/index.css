@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Caveat:wght@400;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-hand: "Caveat", "Architects Daughter", cursive;
+}
+
+/* Uphoria.co.in High Fidelity Zine Style Theme Definitions */
+.uphoria-bg {
+  background-color: #FFF2F5 !important; /* Soft warm pink-peach background from Uphoria */
+}
+
+.uphoria-tape {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 1px dashed rgba(0, 0, 0, 0.35) !important;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.06) !important;
+  font-family: "Caveat", cursive !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  padding: 2px 16px !important;
+  transform: rotate(-2deg);
+  display: inline-block;
+}
+
+.uphoria-pill-nav {
+  background: #ffffff !important;
+  border: 3px solid #000000 !important;
+  box-shadow: 4px 4px 0px 0px #000000 !important;
+  border-radius: 9999px !important;
+}
+
+.uphoria-card-yellow {
+  background: #FDFFB6 !important;
+  align-self: stretch;
+  border: 3px solid #000000 !important;
+  box-shadow: 6px 6px 0px 0px #000000 !important;
+  transition: all 0.2s ease;
+  color: #000000 !important;
+}
+
+.uphoria-card-pink {
+  background: #FFC6FF !important;
+  border: 3px solid #000000 !important;
+  box-shadow: 6px 6px 0px 0px #000000 !important;
+  transition: all 0.2s ease;
+  color: #000000 !important;
+}
+
+.uphoria-card-cyan {
+  background: #9BF6FF !important;
+  border: 3px solid #000000 !important;
+  box-shadow: 6px 6px 0px 0px #000000 !important;
+  transition: all 0.2s ease;
+  color: #000000 !important;
+}
+
+.uphoria-card-white {
+  background: #ffffff !important;
+  border: 3px solid #000000 !important;
+  box-shadow: 6px 6px 0px 0px #000000 !important;
+  transition: all 0.2s ease;
+  color: #000000 !important;
+}
+
+.uphoria-highlight-cyan {
+  background-color: #00F0FF !important;
+  border: 2px solid #000000 !important;
+  color: #000000 !important;
+}
+
+.uphoria-highlight-yellow {
+  background-color: #FFF000 !important;
+  border: 2.5px solid #000000 !important;
+  color: #000000 !important;
+}
+
+.uphoria-interactive-input {
+  background-color: #ffffff !important;
+  border: 2px solid #000000 !important;
+  color: #000000 !important;
+  font-family: inherit;
+  transition: all 0.15s ease;
+}
+.uphoria-interactive-input:focus {
+  outline: none !important;
+  box-shadow: 3px 3px 0px 0px #000000 !important;
+  transform: translate(-1px, -1px);
+}
+
+.uphoria-btn-green {
+  background-color: #CAFFBF !important;
+  border: 3px solid #000000 !important;
+  box-shadow: 4px 4px 0px 0px #000000 !important;
+  color: #000000 !important;
+  font-weight: 800 !important;
+  transition: all 0.15s ease !important;
+}
+.uphoria-btn-green:hover:not(:disabled) {
+  transform: translate(-2px, -2px) !important;
+  box-shadow: 6px 6px 0px 0px #000000 !important;
+  background-color: #bbfcae !important;
+}
+.uphoria-btn-green:active:not(:disabled) {
+  transform: translate(2px, 2px) !important;
+  box-shadow: 1px 1px 0px 0px #000000 !important;
+}
+.uphoria-btn-green:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.uphoria-btn-blue {
+  background-color: #9BF6FF !important;
+  border: 3px solid #000000 !important;
+  box-shadow: 4px 4px 0px 0px #000000 !important;
+  color: #000000 !important;
+  font-weight: 800 !important;
+  transition: all 0.15s ease !important;
+}
+.uphoria-btn-blue:hover:not(:disabled) {
+  transform: translate(-2px, -2px) !important;
+  box-shadow: 6px 6px 0px 0px #000000 !important;
+}
+.uphoria-btn-blue:active:not(:disabled) {
+  transform: translate(2px, 2px) !important;
+  box-shadow: 1px 1px 0px 0px #000000 !important;
+}
+
+.uphoria-btn-white {
+  background-color: #ffffff !important;
+  border: 2.5px solid #000000 !important;
+  box-shadow: 3px 3px 0px 0px #000000 !important;
+  color: #000000 !important;
+  font-weight: 700 !important;
+  transition: all 0.15s ease !important;
+}
+.uphoria-btn-white:hover:not(:disabled) {
+  transform: translate(-2px, -2px) !important;
+  box-shadow: 5px 5px 0px 0px #000000 !important;
+}
+.uphoria-btn-white:active:not(:disabled) {
+  transform: translate(1px, 1px) !important;
+  box-shadow: 1px 1px 0px 0px #000000 !important;
+}
+
+.uphoria-btn-red {
+  background-color: #FFADAD !important;
+  border: 2.5px solid #000000 !important;
+  box-shadow: 3px 3px 0px 0px #000000 !important;
+  color: #000000 !important;
+  font-weight: 700 !important;
+  transition: all 0.15s ease !important;
+}
+.uphoria-btn-red:hover:not(:disabled) {
+  transform: translate(-2px, -2px) !important;
+  box-shadow: 5px 5px 0px 0px #000000 !important;
+}
+.uphoria-btn-red:active:not(:disabled) {
+  transform: translate(1px, 1px) !important;
+  box-shadow: 1px 1px 0px 0px #000000 !important;
+}
+
+/* Custom traditional vintage ink / bookkeeping ledger classes */
+.ledger-double-border {
+  border-bottom: 4px double #000000;
+}
+
+/* Classic retro scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF2F5;
+  border-left: 2px solid #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border: 2px solid #FFF2F5;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
+
